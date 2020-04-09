@@ -1,0 +1,130 @@
+body {
+margin: 0px;
+}
+
+#header {
+  background-color: palegreen;
+  text-align: center;
+  height: 700px;
+  background-image: url("../photo/space.jpg");
+  padding-top: 35px;
+}
+#header > h1 {
+  font-size: 400px;
+  font-family: impact;
+  color: red;
+  margin: 30px;
+  margin-top: 15px;
+}
+
+#header > p {
+  font-size: 50px;
+  font-family: impact;
+  color: yellow;
+  margin-bottom: 30px;
+  margin: 0;
+
+}
+
+#middle > div {
+  display: inline-block;
+}
+
+#left {
+  float: left;
+  width: 60%;
+  margin: 3%;
+}
+
+#introduction {
+  /* background-color: plum; */
+  display: flex;
+  width: 100%;
+  border: outset 5px black;
+}
+
+#ganmen {
+  width: 30%;
+  height: 172.62px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+
+#intro > h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#intro > h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  font-size: 20px;
+}
+
+#intro {
+  width: 60%;
+
+}
+
+#manu {
+  background-color: paleturquoise;
+  border: outset 5px black;
+  margin-top: 10px;
+}
+
+#manu > h1{
+  text-align: center;
+}
+
+#central{
+  /* text-align: center; */
+}
+#central > ul {
+  text-align: left;
+  list-style-position: inside;
+  font-size: 20px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main {
+  /* background-color:palevioletred; */
+}
+
+.article > h1 {
+  text-align: center;
+}
+
+#sidebar {
+  width: 18%;
+  margin: 3%;
+}
+
+#advertisement {
+  background-color:peachpuff;
+  height: 1000px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+#advertisement > p {
+  font-size: 50px;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+}
+#guide {
+  border-style: ridge;
+  background-color: yellow;
+}
